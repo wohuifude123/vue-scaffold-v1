@@ -1,0 +1,29 @@
+# FE ignore
+node_modules
+bower_components
+
+# debug ignore
+# 忽略所有build目录下的文件，但如果是名为build的文件则不忽略
+build/
+npm-debug.log
+dist/
+
+# IDE ignore
+.DS_Store
+.idea
+
+# 忽略特定文件或文件夹
+package-lock.json
+
+
+
+# 只忽略当前目录下的public目录，子目录的public不在忽略范围内
+/public/*
+!/public/config/README
+
+# 只忽略当前目录下的test目录，子目录的test不在忽略范围内
+
+/test/
+
+/service/config/setting
+

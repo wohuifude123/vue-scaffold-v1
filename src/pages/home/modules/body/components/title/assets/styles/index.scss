@@ -1,0 +1,20 @@
+.title_div {
+  height: 155px;
+  .space_div {
+    height: 60px;
+  }
+  .technologyChinese {
+    height: 36px;
+    color: rgba( 31, 42, 155, 1);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .technologyEnglish {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
